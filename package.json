@@ -1,0 +1,29 @@
+{
+  "name": "catch-of-the-day",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.10.0",
+    "concurrently": "^2.2.0",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "history": "^4.0.1",
+    "prop-types": "^15.5.10",
+    "re-base": "^2.1.0",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "15.3.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.0.0-2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "semantic-ui-react": "^0.72.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "watch": "concurrently --names 'webpack, stylus' --prefix name 'npm run start' 'npm run styles:watch'",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

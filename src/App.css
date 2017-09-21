@@ -1,0 +1,99 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+}
+
+.submit:hover {
+  animation: colorfunk 4s infinite ease; 
+}
+
+.unavailable-span{
+  letter-spacing: 3px;
+  color: red;
+}
+
+.available-span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+  font-weight: bold;
+}
+
+@keyframes colorfunk{
+  0% {
+    border: width border-style color;
+    background-color: black;
+  }
+
+  25% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: white;
+  }
+
+  75% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
+
+.item{
+  height: 150px;
+}
+
+.dimmable{
+  overflow: hidden;
+}
+
+.dimmable>img{
+  height: 100%;
+}
+
+.total{
+  border-top: 3px black solid;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.section{
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+li:not(:last-of-type){
+  border-bottom: solid black 1px;
+}
+
+i.remove.icon.delete{
+  margin-left: 20px;
+  cursor: pointer;
+  transform-origin: 8px 11px;
+  transition:all 1s ease;
+}
+
+i.remove.icon.delete:hover{
+  transform: rotate(180deg);
+}
